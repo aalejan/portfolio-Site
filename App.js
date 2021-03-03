@@ -1,9 +1,10 @@
-
+import Nav from './components/Nav'
+import AboutPage from './pages/AboutPage'
 
 function App() {
   return (
     <div className="App">
-      hello
+     <AboutPage /> 
     </div>
   );
 }

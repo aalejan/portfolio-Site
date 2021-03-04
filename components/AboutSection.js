@@ -4,16 +4,30 @@ import styled from 'styled-components'
 
 const AboutSection = () => {
     return (
-        <div>
+        <About className="about">
             <div className="description">
                 <div className="title">
-                    <h2>Hi, I'm Alex Alejandro</h2>
+                    <Title>Hi, I'm Alex Alejandro</Title>
+                </div>
+                <div className="subtitle">
+
                 </div>
             </div>
-        </div>
+        </About>
     )
 }
 
+const About = styled.div `
+    background-color: #659dbd;
+    height: 50vh;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+`
+
+const Title = styled.h2 `
+ animation: title-entrance 1.5s ease-in-out
+`
 
 
 export default AboutSection

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Nav.css'
 
 const Nav = () => {
     return (
@@ -6,10 +7,10 @@ const Nav = () => {
             <header className="main-header">
                 <nav>
                     <ul className="nav-items">
-                        <li className="nav-item"><a href="#AboutMe"></a>About Me</li>
-                        <li className="nav-item"><a href="#Projects"></a>Projects</li>
-                        <li className="nav-item"><a href="#ContactMe"></a>Skills</li>
-                        <li className="nav-item"><a href="#ContactMe"></a>Contact Me</li>
+                        <li className="nav-item"><a href="#AboutMe">About Me</a></li>
+                        <li className="nav-item"><a href="#Projects">Projects</a></li>
+                        <li className="nav-item"><a href="#ContactMe">Skills</a></li>
+                        <li className="nav-item"><a href="#ContactMe">Contact Me</a></li>
                     </ul>
                 </nav>
             </header>

@@ -1,4 +1,6 @@
 import React from 'react'
+import './AboutSection.css'
+import styled from 'styled-components'
 
 const AboutSection = () => {
     return (
@@ -11,5 +13,7 @@ const AboutSection = () => {
         </div>
     )
 }
+
+
 
 export default AboutSection

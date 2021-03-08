@@ -23,8 +23,23 @@ const NavLink = styled.a`
     cursor: pointer;
     text-decoration: none;
     color: #DAAD86;
-    &:hover{
+    position: relative;
+    &:hover::after{
+        transform: scaleX(1);
         color: #ef8b33
+    }
+    &:after{
+        content:'';
+        position:absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 2px;
+        background: currentColor;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 250ms ease-in-out;
+
     }
 
 `

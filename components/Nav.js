@@ -7,12 +7,12 @@ const Nav = () => {
         <div>
             <header className="main-header">
                 <nav>
-                    <ul className="nav-items">
+                    <NavItems className="nav-items">
                         <li className="nav-item"><NavLink href="#AboutMe">About Me</NavLink></li>
                         <li className="nav-item"><NavLink href="#Projects">Projects</NavLink></li>
-                        <li className="nav-item"><NavLink href="#ContactMe">Skills</NavLink></li>
-                        <li className="nav-item"><NavLink href="#ContactMe">Contact Me</NavLink></li>
-                    </ul>
+                        <li className="nav-item"><NavLink href="#Skills">Skills</NavLink></li>
+                        <li className="nav-item"><NavLink href="Contact">Contact Me</NavLink></li>
+                    </NavItems>
                 </nav>
             </header>
         </div>
@@ -22,8 +22,15 @@ const Nav = () => {
 const NavLink = styled.a`
     cursor: pointer;
     text-decoration: none;
-    color: #8D8745;
+    color: #DAAD86;
+    &:hover{
+        color: #ef8b33
+    }
 
+`
+
+const NavItems = styled.ul `
+ animation: title-entrance 1.5s ease-in-out
 `
 
 export default Nav

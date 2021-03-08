@@ -1,17 +1,20 @@
 .title{
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
-h2{
-    padding-left: 5rem;
+.title h2{
+   
 }
 
 
 @keyframes title-entrance{
+    
     from{
-        transform: translateX(-100%)
+        opacity: 0;
+        transform: translateX(-100%);
     }
     to{
-        transform: translateX(0%)
+        opacity: 1;
+        transform: translateX(0%);
     }
 }

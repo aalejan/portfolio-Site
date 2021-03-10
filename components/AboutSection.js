@@ -10,8 +10,7 @@ const AboutSection = () => {
                     <Title>Hi, I'm Alex</Title>
                 </div>
                 <SubTitle className="subtitle">
-                I am an eager and ambitious software developer ready to start a career as a 
-                Front End Developer.
+                I am an eager and ambitious Web Developer ready to start a career and bring my passion to a full time role.
                 </SubTitle>
             </div>
         </About>
@@ -19,10 +18,9 @@ const AboutSection = () => {
 }
 
 const About = styled.div `
-    background-color: #659dbd;
+    background-color:#caebf2 ;
     height: 100vh;
     width: 100vw;
-    margin-top: 2rem;
     display: flex;
     align-items: center;
 `
@@ -30,14 +28,15 @@ const About = styled.div `
 const Title = styled.h2 `
  animation: title-entrance 1.5s ease-in-out;
  padding-left: 5rem;
-
+ color:black;
+ font-weight: 800;
 `
 
 const SubTitle = styled.div `
     padding-left: 5rem;
     margin-top: 1rem;
     font-size: 2rem;
-    color:#252424;
+    color:black;
     animation: title-entrance 1.5s ease-in-out;
     animation-delay:0.2s;
 `

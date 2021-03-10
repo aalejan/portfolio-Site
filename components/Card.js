@@ -19,14 +19,16 @@ const Card = ({description, img, title}) => {
 }
 
 const ProjectCard = styled.div`
+background-color: white;
 width: 300px;
 border-style: none;
 border-radius: 4px;
 flex: 1 1 25rem;
 font-size: 1.5rem;
-box-shadow: 3px 3px 5px 6px #ccc;
+box-shadow: 3px 3px 5px 6px #3b5646;
 position: relative;
 transition: transform 250ms ease-in-out;
+height: 300px;
 img{
     width: 300px;
     border-radius:4px;

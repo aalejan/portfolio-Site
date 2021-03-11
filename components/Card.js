@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
 import './Card.css'
-import CoinHubImg from '../images/CoinHub.png'
 
-const Card = ({description, img, title}) => {
+
+const Card = ({description, img, title, code}) => {
     return (
         <div>
             <ProjectCard className="card">
@@ -12,7 +12,7 @@ const Card = ({description, img, title}) => {
                     <h4>{title}</h4>
                     <p>{description}</p>  
                 </div>
-                <button><a href="https://github.com/aalejan/Star-Wars-Translator-App">Source Code</a></button>
+                <button><a href={code}>Source Code</a></button>
             </ProjectCard>
         </div>
     )
@@ -30,6 +30,7 @@ position: relative;
 transition: transform 250ms ease-in-out;
 height: 300px;
 button{
+    color: black;
     cursor: pointer;
     position: absolute;
     bottom: 10px;
@@ -39,6 +40,10 @@ button{
     border-radius: 5px;
     background-color: #f9b775;
 }
+button a{
+    color:white;
+}
+
 img{
     width: 300px;
     height: 150px;

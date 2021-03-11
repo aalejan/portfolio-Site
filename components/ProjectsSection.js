@@ -12,11 +12,15 @@ const ProjectsSection = () => {
             <Card 
             description="Access to over 100 different crypto currencies and some exchanges to trade crypto on!" 
             img={CoinHub} 
-            title="CoinHub" />
+            title="CoinHub" 
+            code="https://github.com/aalejan/crypto-app"
+            />
             <Card 
             description="This App allows you to enter any text you want and have it translated into the language of your favorite Star Wars characters!!" 
             img={StarWars} 
-            title="Star Wars Translator" />
+            title="Star Wars Translator"
+            code="https://github.com/aalejan/Star-Wars-Translator-App"
+            />
         </Cards>
         </Projects>
        

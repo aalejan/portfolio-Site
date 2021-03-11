@@ -25,7 +25,7 @@ const ProjectsSection = () => {
 
 const Projects = styled.div`
 padding: 2rem;
-background-color: #a8d5baff;
+background-color: #bfefd2;
     h2{
         font-size: 4rem;
     font-weight: 500;

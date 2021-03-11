@@ -30,6 +30,7 @@ const About = styled.div `
     display: flex;
     align-items: center;
     .social-links{
+        animation: title-entrance 1.5s ease-in-out;
         margin-top: 1rem;
         width: 9vw;
         padding-left:5rem;

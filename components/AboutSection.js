@@ -2,6 +2,8 @@ import React from 'react'
 import './AboutSection.css'
 import styled from 'styled-components'
 
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+
 const AboutSection = () => {
     return (
         <About className="about">
@@ -12,6 +14,10 @@ const AboutSection = () => {
                 <SubTitle className="subtitle">
                 I am an eager and ambitious Web Developer ready to start a career and bring my passion to a full time role.
                 </SubTitle>
+                <div className="social-links">
+                    <a href="https://www.linkedin.com/in/alexander-alejandro/"><FaLinkedin size= '3rem' /></a>
+                    <a href="https://github.com/aalejan"><FaGithub size= '3rem' /></a>
+                </div>
             </div>
         </About>
     )
@@ -23,6 +29,16 @@ const About = styled.div `
     width: 100vw;
     display: flex;
     align-items: center;
+    .social-links{
+        margin-top: 1rem;
+        width: 9vw;
+        padding-left:5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    a{
+        color:black;
+    }
 `
 
 const Title = styled.h2 `

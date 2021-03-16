@@ -6,7 +6,7 @@ import StarWars from '../images/StarWars.png'
 
 const ProjectsSection = () => {
     return (
-        <Projects className="projects">
+        <Projects id="Projects">
         <h2>Projects</h2>
         <Cards >
             <Card 

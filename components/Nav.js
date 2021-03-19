@@ -20,6 +20,7 @@ const Nav = () => {
 }
 
 const NavLink = styled.a`
+font-family: 'Lobster', cursive;
     cursor: pointer;
     color:#ff3b3f;
     position: relative;

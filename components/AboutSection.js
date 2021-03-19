@@ -47,6 +47,7 @@ const Title = styled.h2 `
  padding-left: 5rem;
  color:black;
  font-weight: 800;
+ font-family: 'Lobster', cursive;
 `
 
 const SubTitle = styled.div `

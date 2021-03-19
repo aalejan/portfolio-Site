@@ -35,6 +35,7 @@ const SkillsSection = () => {
 
 
 const SkillsTitle = styled.h2 `
+font-family: 'Lobster', cursive;
     font-size: 4rem;
     font-weight: 500;
     padding-left: 5rem;

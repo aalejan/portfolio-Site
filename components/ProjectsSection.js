@@ -28,6 +28,9 @@ const ProjectsSection = () => {
 }
 
 const Projects = styled.div`
+h2{
+    font-family: 'Lobster', cursive;
+}
 padding: 2rem;
 background-color: #bfefd2;
     h2{

@@ -26,7 +26,7 @@ const AboutSection = () => {
 const About = styled.div `
     background-color:#caebf2 ;
     height: 100vh;
-    width: 100vw;
+    min-width: 100vw;
     display: flex;
     align-items: center;
     .social-links{
@@ -40,6 +40,9 @@ const About = styled.div `
     a{
         color:black;
     }
+    @media(max-width: 375px){
+        .social-links
+    }
 `
 
 const Title = styled.h2 `
@@ -48,6 +51,10 @@ const Title = styled.h2 `
  color:black;
  font-weight: 800;
  font-family: 'Lobster', cursive;
+ @media (max-width: 375px){
+     font-weight: 600;
+     padding-left:4rem;
+ }
 `
 
 const SubTitle = styled.div `
@@ -57,6 +64,11 @@ const SubTitle = styled.div `
     color:black;
     animation: title-entrance 1.5s ease-in-out;
     animation-delay:0.2s;
+    @media(max-width: 375px){
+        font-size: 1.2rem;
+        padding-left: 4rem;
+        margin-top: .5rem;
+    }
 `
 
 

@@ -19,18 +19,17 @@ import styled from 'styled-components';
   }
 
   return (
-    <Contact className="container">
+    <Contact id="Contact">
     
     <form className="contact-form" onSubmit={sendEmail}>
     <div className='title'>Contact Me</div>
-      <input type="hidden" name="contact_number" />
       <label>Name</label>
-      <input type="text" name="user_name" />
+      <input type="text" name="name" />
       <label>Email</label>
-      <input type="email" name="user_email" />
+      <input type="email" name="email" />
       <label>Message</label>
       <textarea name="message" />
-      <input className= 'submit' type="submit" value="Send" />
+      <input className= 'submit' type="submit" value="Send Message" />
     </form>
     </Contact>
     
@@ -46,6 +45,10 @@ margin-bottom: 2rem;
 display: flex;
 justify-content: center;
 box-shadow: 2px 2px 4px 5px #e6e8e6;
+border-radius: 3px;
+input:focus {
+        outline:none;
+    }
 
 .title{
     font-family: 'Lobster', cursive;
@@ -71,6 +74,12 @@ form{
     }
     div{
         text-align: center;
+    }
+    textarea{
+        height: 100px;
+    }
+    textarea:focus{
+        outline:none;
     }
 }
 

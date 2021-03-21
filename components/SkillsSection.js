@@ -54,6 +54,12 @@ img{
     height: 100px;
     border-radius:10px;
 }
+@media(max-width:375px){
+    img{
+        height:40px;
+    }
+    width: 80%;
+}
 
 `
 

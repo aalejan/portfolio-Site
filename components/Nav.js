@@ -43,7 +43,15 @@ font-family: 'Lobster', cursive;
 
 const NavItems = styled.ul `
  animation: title-entrance 1.5s ease-in-out;
- 
+ display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2rem;
+    font-size: 1.7rem;
+    @media(max-width: 375px){
+        font-size: 1.3rem;
+    }
 `
 
 export default Nav

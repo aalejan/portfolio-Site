@@ -34,7 +34,7 @@ h2{
 padding: 2rem;
 background-color: #bfefd2;
     h2{
-        font-size: 4rem;
+    font-size: 4rem;
     font-weight: 500;
     padding-left: 5rem;
     padding-left: 5rem;
@@ -47,6 +47,10 @@ const Cards = styled.div`
 margin: 4rem;
 display: flex;
 justify-content: space-evenly;
+@media(max-width: 375px){
+    justify-content: space-between;
+    margin: 2rem;
+}
 `
 
 export default ProjectsSection

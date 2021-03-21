@@ -82,6 +82,15 @@ form{
         outline:none;
     }
 }
+@media(max-width: 375px){
+    form{
+        width:250px;
+        textarea{
+        height: 50px;
+        } 
+    }
+   width: 80%;
+}
 
 `
 

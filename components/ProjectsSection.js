@@ -46,8 +46,14 @@ background-color: #bfefd2;
 const Cards = styled.div`
 margin: 4rem;
 display: flex;
-justify-content: space-evenly;
+justify-content: space-around;
 @media(max-width: 375px){
+    justify-content: space-between;
+    margin: 2rem;
+    width: 95%;
+}
+
+@media(max-width: 414px){
     justify-content: space-between;
     margin: 2rem;
 }

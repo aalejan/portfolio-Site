@@ -48,9 +48,12 @@ const NavItems = styled.ul `
     list-style: none;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 2rem;
-    font-size: 1.7rem;
+    font-size: 2rem;
     @media(max-width: 375px){
         font-size: 1.3rem;
+    }
+    @media(max-width: 414px){
+        font-size: 1.5rem;
     }
 `
 

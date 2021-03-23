@@ -60,6 +60,12 @@ img{
     }
     width: 80%;
 }
+@media(max-width:414px){
+    img{
+        height:50px;
+    }
+    width: 80%;
+}
 
 `
 

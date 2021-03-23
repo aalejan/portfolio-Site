@@ -86,6 +86,30 @@ button{
         }
     }
 }
+@media(max-width: 414px){
+    font-size:.6rem;
+    width: 150px;
+    height: 160px;
+button{
+    bottom: 5px;
+    right: 20px;
+    padding: 0px;
+}
+
+    button a{
+        font-size: .5rem;
+    }
+    img{
+        width:150px;
+        height: 75px;
+    }
+    .card-info{
+        h4{
+            font-size: 1rem;
+            padding-bottom: 0rem;
+        }
+    }
+}
 
 `
 

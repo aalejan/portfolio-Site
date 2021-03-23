@@ -18,3 +18,9 @@ header{
         margin-left: 30%;
     }
 }
+
+@media(max-width: 414px){
+    header{
+        margin-left: 30%;
+    }
+}

@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const AboutSection = () => {
     return (
-        <About className="about">
+        <About id="About">
             <div className="description">
                 <div className="title">
                     <Title>Hi, I'm Alex</Title>
@@ -28,6 +28,7 @@ const About = styled.div `
     height: 100vh;
     min-width: 100vw;
     display: flex;
+    
     align-items: center;
     .social-links{
         animation: title-entrance 1.5s ease-in-out;

@@ -50,7 +50,7 @@ const Skills = styled.div`
 padding-top: 4rem;
 padding-bottom:4rem;
 margin: auto;
-width: 70%;
+width: 90%;
 justify-content: space-between;
 display:flex;
 flex-wrap: wrap;

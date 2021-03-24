@@ -11,6 +11,16 @@
 header{
     margin-left: 50%;
     min-height: 8vh;
+   
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+
 }
 
 @media(max-width: 375px){

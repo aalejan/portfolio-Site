@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import './Card.css'
 
 
 const Card = ({description, img, title, code}) => {

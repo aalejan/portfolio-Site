@@ -5,6 +5,7 @@ import HTMLIcon from '../images/HTMLlogo.svg.png'
 import CSSLogo from '../images/CSSLogo.png'
 import JSLogo from '../images/JSLogo.png'
 import SQLogo from '../images/SQLogo.png'
+import BootstrapImg from '../images/Bootstrap.png'
 
 const SkillsSection = () => {
     return (
@@ -28,6 +29,9 @@ const SkillsSection = () => {
                 <div>
                     <img src={SQLogo} alt=""/>
                 </div>
+                <div>
+                    <img src={BootstrapImg} alt=""/>
+                </div>
            </Skills>
         </div>
     )
@@ -46,7 +50,7 @@ const Skills = styled.div`
 padding-top: 4rem;
 padding-bottom:4rem;
 margin: auto;
-width: 60%;
+width: 70%;
 justify-content: space-between;
 display:flex;
 flex-wrap: wrap;
@@ -57,6 +61,7 @@ img{
 @media(max-width:375px){
     img{
         height:40px;
+        width: 50px;
     }
     width: 80%;
 }
@@ -64,7 +69,7 @@ img{
     img{
         height:50px;
     }
-    width: 80%;
+    width: 90%;
 }
 
 `
